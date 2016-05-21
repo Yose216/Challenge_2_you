@@ -18,7 +18,7 @@ div { /*pas d'espace horizontal entre les block*/
 	width: 1000px;
 	height: 610px;
 	text-align: center;
-	margin-left: 12%;
+	margin-left: 175px;
 }
 
 .main2 h2 {
@@ -71,7 +71,7 @@ div { /*pas d'espace horizontal entre les block*/
 	width: 1000px;
 	height: 610px;
 	text-align: center;
-	margin-left: 12%;
+	margin-left: 175px;
 }
 
 .main3 h2 {
@@ -127,7 +127,7 @@ footer {
 footer pre {
 	width: 1000px;
 	text-align: center;
-	margin-left: 12%;
+	margin-left: 175px;
 	color: #A7A7A7;
 	margin-top: 90px;
 	font-size: 14px;
