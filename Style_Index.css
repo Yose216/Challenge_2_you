@@ -7,6 +7,96 @@ div { /*pas d'espace horizontal entre les block*/
 	display: inline-block;
 }
 
+#backnav{
+	height:120px;
+	width: 100%;
+	background-color: rgba(238,238,238,0.8);
+	display: inline-block;
+}
+
+.topnav{	
+	width: 1000px;
+	margin-left: 175px;
+}
+
+.topnav h2{
+	padding:10px 0 10px 0;
+	float: left;
+	font-size: 55px;
+}
+
+ul{
+	margin: 15px 12px 0 12px;
+	padding: 31px 0 31px 0;
+	float: right;
+}
+
+li{
+	display: inline-block;
+	padding: 0 15px 0 15px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+li:hover{
+	color:#27AE61;
+}
+
+.block1{
+	background-image: url("images/banner.png"); 
+	background-color: #27AE61 ;
+    width: 100%;
+    height: 780px;
+    margin:0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main1{
+	text-align: center;
+	width: 1000px;
+	margin-left: 175px; 
+}
+
+.main1 img{
+	border-radius: 100%;
+	padding: 20px;
+}
+
+.main1 h2{
+	font-size: 55px;
+	line-height: 170px;
+	color: white;
+}
+
+.Sous_titre1{
+	font-size: 22px;
+	margin-top: 0px;
+	color: #cfefeb;
+}
+
+.Texte1{
+	font-size: 17px;
+	line-height:30px;
+	margin-top: 30px;
+	color: #cfefeb;
+}
+
+.button{
+	background-color:#2B3F48;
+	border:none;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	display:inline-block;
+	cursor: pointer;
+	letter-spacing: 4px;	
+	border-radius: 10px;
+	font-size:17px;
+	margin: 60px 0 60px 0;
+}
+
+
 .block2 { /* gere la taille, la largeur et la couleur de fond du deuxieme block*/
 	background-color: rgba(238,238,238,0.8); /* regle la couleur et l'opacite du fond*/
 	width: 100%;
@@ -55,11 +145,6 @@ div { /*pas d'espace horizontal entre les block*/
     margin: 60px 0 60px 0;
 }
 
-.button2 a { /*pour le lien du bouton*/
-	text-decoration: none;
-	color: white;
-}
-
 .block3 { /* gere la taille, la largeur et la couleur de fond du troisieme block*/
 	background-color: #27AE61;
 	width: 100%;
@@ -96,25 +181,20 @@ div { /*pas d'espace horizontal entre les block*/
 .button3 {
 	background-color: white;
 	border: none;
- 	color: #27AE61;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    letter-spacing: 4px;    
-    border-radius: 10px;
-    font-size: 17px;
-    margin: 60px 0 60px 0;
+	color: #27AE61;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	letter-spacing: 4px;    
+	border-radius: 10px;
+	font-size: 17px;
+	margin: 60px 0 60px 0;
 }
 
 .Texte3 a {
 	color: white;
-}
-
-.button3 a {
-	text-decoration: none;
-	color: #27AE61;
 }
 
 footer {
@@ -140,4 +220,4 @@ footer img { /* logo du copyright*/
 
 strong { /* mot important ds le footer*/
 	color: #2B3F48;
-	
+}
